@@ -17,10 +17,12 @@
 
       <a-box id="refresh" position="8 1.5 -8" scale="3 0.8 0.8" color="white" static-body="mass:1" refresh rotation="0 -45 0"></a-box>
       <a-text position="6.7 1.55 -8" scale="0.6 0.6 0.6" value="Play Again" color="white" wrap-count="15" rotation="0 -45 0"></a-text>
-      <a-box id="mute" position="8 0.5 -8" scale="3 0.8 0.8" color="red" static-body="mass:1" refresh rotation="0 -45 0"></a-box>
-      <a-text position="6.7 0.6 -8" scale="0.6 0.6 0.6" value="Mute Music" color="white" wrap-count="15" rotation="0 -45 0"></a-text>
+      <!-- <a-box id="mute" position="8 0.5 -8" scale="3 0.8 0.8" color="red" static-body="mass:1" refresh rotation="0 -45 0"></a-box>
+      <a-text position="6.7 0.6 -8" scale="0.6 0.6 0.6" value="Mute Music" color="white" wrap-count="15" rotation="0 -45 0"></a-text> -->
 
-      <a-gltf-model src="assets/tent/scene.gltf" position="0 -2.5 -9.5" rotation="0 0 0" scale="3 3 3"></a-gltf-model>
+      <a-image src="assets/htb_icon.png" position="-8 1.5 -8" scale="5 5 5"></a-image>
+
+      <a-gltf-model src="assets/tent/scene.gltf" position="0 -2.5 -9.5" rotation="0 0 0" scale="3 3 3" rotation="0 45 45"></a-gltf-model>
       <a-entity class="shooter-box">
         <a-box static-body position="0 0.5 -12" width="9" rotation="0 0 0" color="#6669d4"></a-box>
         <a-gltf-model dynamic-body src="assets/jd_bottle/scene.gltf" position="0 2 -12" rotation="0 0 0" scale="1 1 1"></a-gltf-model>
